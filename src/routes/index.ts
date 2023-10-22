@@ -11,6 +11,6 @@ router.get('/cats', PageController.cats)
 router.get('/fishes', PageController.fishes)
 
 //Rota de busca
-router.get('search', SearchController.search)
+router.get('/search', SearchController.search)
 
 export default router
